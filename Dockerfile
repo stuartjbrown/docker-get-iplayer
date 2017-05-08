@@ -4,7 +4,8 @@ MAINTAINER stuartjbrown
 RUN apk --update add \
     ffmpeg \
     openssl \
-    perl-xml-simple
+    perl-xml-simple \
+    perl-xml-libxml
 
 RUN mkdir -p /data/output /data/config
 
